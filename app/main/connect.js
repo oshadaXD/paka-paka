@@ -1,4 +1,4 @@
-require('./settings/config')
+require('./config')
 const { default: killauConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require('@adiwajshing/baileys')
 const { state, saveState } = useSingleFileAuthState(`./Session/${sessionName}.json`)
 const pino = require('pino')
